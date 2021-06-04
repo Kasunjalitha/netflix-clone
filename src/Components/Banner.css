@@ -1,0 +1,47 @@
+.banner {
+  height: 465px;
+  position: relative;
+}
+
+.fade-bottom {
+  position: absolute;
+  top: 0;
+  background-image: linear-gradient(180deg, transparent, black);
+  width: 100%;
+  height: 465px;
+  z-index: 2;
+}
+
+.banner-title {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.banner-movie-info {
+  color: white;
+  text-align: left;
+  max-width: 280px;
+  padding-top: 20px;
+}
+
+.banner-btn {
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(51, 51, 51, 0.5);
+  border: none;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.banner-content {
+  position: absolute;
+  z-index: 3;
+  /* border: 1px solid white; */
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+}

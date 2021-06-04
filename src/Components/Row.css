@@ -1,0 +1,26 @@
+.row_poster {
+  width: 150px;
+  margin-right: 10px;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.row_posters {
+  display: flex;
+  overflow-x: scroll;
+  padding: 20px 10px;
+  margin-left: 10px;
+}
+
+.row_poster:hover {
+  transform: scale(1.1);
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-header {
+  margin-left: 20px;
+  color: white;
+}
